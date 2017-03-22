@@ -10,6 +10,7 @@ function contentLoader(event){
 }
 
 function keyUp(event){
+  alert('keyup');
   calculateNumericOutput();
 }
 
