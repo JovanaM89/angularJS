@@ -1,0 +1,23 @@
+<!doctype html>
+<html  ng-app='MsgApp'>
+  <head>
+    <meta charset="utf-8"/>
+    <script src='angular.min.js'></script>
+    <script src='app.js'></script>
+    <title>Expressions and Interpolation</title>
+  </head>
+  <body>
+    <h1>Expressions and Interpolation</h1>
+    <div ng-controller='MsgController'>
+        <div>
+          Message is:<br>
+          {{sayHello()}}
+        </div>
+        <div>
+          <button ng-click='changeImg()'>Change img</button>
+          <br>
+          <img ng-src='img_{{state}}.jpg' alt=''>
+        </div>
+    </div>
+  </body>
+</html>

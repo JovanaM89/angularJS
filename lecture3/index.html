@@ -1,0 +1,16 @@
+<!doctype html>
+<html ng-app='myFirstApp'>
+  <head>
+    <meta charset="utf-8"/>
+      <script src='angular.min.js'></script>
+    <script src='app.js'></script>
+    <title>Hello Cursera</title>
+  </head>
+  <body>
+    <h1>My first Angular app</h1>
+    <div ng-controller='myFirstController'>
+      <input type='text' ng-model='name'>
+      Inside my input is: {{name}}
+    </div>
+  </body>
+</html>
